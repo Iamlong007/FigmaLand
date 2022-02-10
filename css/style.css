@@ -1,0 +1,61 @@
+::before,
+::after {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background: #181818;
+  color: white;
+  font-family: fellix;
+}
+nav {
+  width: 100%;
+  align-items: center;
+}
+.nav_cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 75%;
+  margin: auto;
+  padding: 10px 100px;
+}
+.navLinks {
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color: white;
+  padding: 30px;
+}
+button {
+  height: 52px;
+  width: 139px;
+  background-color: inherit;
+  border: 1px solid white;
+  color: white;
+  border-radius: 3px;
+}
+.hero_section {
+  display: flex;
+  justify-content: center;
+}
+.headline_cont {
+  width: 729px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+}
+.headline {
+  width: 729px;
+  font-size: 80px;
+  line-height: 88px;
+  text-align: center;
+  font-weight: 500;
+}
+p {
+  text-align: center;
+  font-weight: normal;
+}
