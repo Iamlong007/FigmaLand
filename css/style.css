@@ -227,6 +227,10 @@ p {
   .navLinks {
     display: none;
   }
+  .login_button{
+     height: 52px;
+  width: 109px;
+  }
   .cta_buttons {
     flex-direction: column;
     align-items: center;
