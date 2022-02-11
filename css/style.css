@@ -9,7 +9,7 @@ body {
   background: #181818;
   color: white;
   font-family: fellix;
-  /* overflow: hidden; */
+  overflow-x: hidden;
 }
 nav {
   width: 100%;
