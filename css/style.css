@@ -248,46 +248,46 @@ p {
     width: 100%;
   }
   .headline {
-    width: 40%;
+    width: 70%;
     font-size: 40px;
     line-height: 42px;
     text-align: center;
     font-weight: 400;
   }
   p {
-    width: 40%;
+    width: 70%;
     text-align: center;
     font-weight: 400;
     font-size: 14px;
     padding: 20px;
   }
-  .feature_headline{
+  .feature_headline {
     width: 100%;
   }
-  .feature_lists_cont{
+  .feature_lists_cont {
     flex-direction: column;
     align-items: center;
   }
-  .feature_image_large{
+  .feature_image_large {
     display: none;
   }
-  .feature_image_sm{
+  .feature_image_sm {
     display: block;
   }
-  .list{
+  .list {
     width: 260px;
   }
-  .list_title{
+  .list_title {
     width: 260px;
   }
-  .list_text{
+  .list_text {
     width: 260px;
   }
-  .card_cont{
+  .card_cont {
     flex-direction: column;
     align-items: center;
   }
-  .card{
+  .card {
     margin-bottom: 40px;
   }
 }
