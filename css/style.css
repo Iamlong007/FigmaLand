@@ -22,7 +22,7 @@ nav {
   margin: auto;
   padding: 10px 100px;
 }
-.logo{
+.logo {
   width: auto;
   height: 78px;
 }
@@ -219,7 +219,7 @@ p {
 }
 
 @media only screen and (max-width: 768px) {
-  .nav_cont{
+  .nav_cont {
     width: 100%;
     align-items: center;
     padding: 0;
@@ -235,23 +235,23 @@ p {
   }
   .cta_button1,
   .cta_button2 {
-   margin: 0%;
+    margin: 0%;
   }
-  .headline_cont{
+  .headline_cont {
     align-items: center;
   }
-  .headline{
-     width: 40%;
-  font-size: 40px;
-  line-height: 42px;
-  text-align: center;
-  font-weight: 400;
+  .headline {
+    width: 40%;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    font-weight: 400;
   }
   p {
-    width: 30%;
-  text-align: center;
-  font-weight: 400;
-  font-size: 14px;
-  padding: 20px;
-}
+    width: 40%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 20px;
+  }
 }
