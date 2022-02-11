@@ -169,5 +169,17 @@ p {
   line-height: 24px;
   text-align: left;
 }
-.contents_section {
+.card_cont{
+  padding-top: 20px;
+  width: 985px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card{
+  width: 476px;
+  height: 624px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
 }
