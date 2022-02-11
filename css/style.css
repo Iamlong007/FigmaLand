@@ -220,7 +220,7 @@ p {
 
 @media only screen and (max-width: 768px) {
   .nav_cont{
-    width: 96%;
+    width: 100%;
     align-items: center;
     padding: 0;
   }
@@ -237,4 +237,21 @@ p {
   .cta_button2 {
    margin: 0%;
   }
+  .headline_cont{
+    align-items: center;
+  }
+  .headline{
+     width: 60%;
+  font-size: 50px;
+  line-height: 62px;
+  text-align: center;
+  font-weight: 400;
+  }
+  p {
+    width: 70%;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 20px;
+}
 }
