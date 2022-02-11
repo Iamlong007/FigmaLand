@@ -22,6 +22,10 @@ nav {
   margin: auto;
   padding: 10px 100px;
 }
+.logo{
+  width: auto;
+  height: 78px;
+}
 .navLinks {
   display: flex;
 }
