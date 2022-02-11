@@ -200,9 +200,9 @@ p {
   font-weight: 400;
   line-height: 24px;
   width: 250px;
-  color: #5C5C5C;
+  color: #5c5c5c;
 }
-.card_button{
+.card_button {
   height: 52px;
   width: 139px;
   background-color: #4452fe;
@@ -210,19 +210,27 @@ p {
   color: white;
   border-radius: 3px;
 }
-.card_img{
+.card_img {
   margin-top: 50px;
 }
 
-@media only screen and (max-width:768px){
-  .navLinks{
+@media only screen and (max-width: 768px) {
+  .nav_cont{
+    width: 96%;
+    align-items: center;
+    padding: 0;
+  }
+  .navLinks {
     display: none;
   }
-  .cta_buttons{
+  .cta_buttons {
     flex-direction: column;
     align-items: center;
+    height: 120px;
+    justify-content: space-between;
   }
-  .cta_button1, .cta_button2{
-    margin: 0;
+  .cta_button1,
+  .cta_button2 {
+   margin: 0%;
   }
 }
