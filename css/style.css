@@ -9,6 +9,7 @@ body {
   background: #181818;
   color: white;
   font-family: fellix;
+  /* overflow: hidden; */
 }
 nav {
   width: 100%;
@@ -110,7 +111,7 @@ p {
 }
 .screen_images {
   width: 100%;
-  background-size: cover;
+  background-size: contain;
   padding-top: 80px;
   z-index: 0;
 }
