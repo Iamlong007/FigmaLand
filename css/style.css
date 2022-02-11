@@ -259,7 +259,10 @@ p {
     text-align: center;
     font-weight: 400;
     font-size: 14px;
-    padding: 20px;
+    padding: 10px;
+  }
+  .section_headline{
+    font-size: 35px;
   }
   .feature_headline {
     width: 100%;
@@ -289,5 +292,13 @@ p {
   }
   .card {
     margin-bottom: 40px;
+    width: 348px;
+    height: 572px;
   }
+  .card_cont{
+    width: 100%;
+  }
+.card_img{
+  width: 300px;
+}
 }
