@@ -245,6 +245,7 @@ p {
   }
   .headline_cont {
     align-items: center;
+    width: 100%;
   }
   .headline {
     width: 40%;
@@ -259,6 +260,9 @@ p {
     font-weight: 400;
     font-size: 14px;
     padding: 20px;
+  }
+  .feature_headline{
+    width: 100%;
   }
   .feature_lists_cont{
     flex-direction: column;
