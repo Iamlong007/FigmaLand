@@ -268,6 +268,7 @@ p {
 .test_r {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   height: 730px;
 }
 .test_card1 {
@@ -432,9 +433,10 @@ p {
     margin-top: 20px;
   }
   .test_r {
-    margin-top: 10px;
+    margin-top: 15px;
     height: 700px;
     align-items: center;
+    justify-content: baseline;
   }
   .test_body {
     width: 323px;
@@ -454,6 +456,24 @@ p {
   }
   .test_r{
     height: 800px;
+  }
+  .test_card1 {
+    width: 70%;
+  }
+  .test_body {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 381px) {
+  .test_cont {
+    /* height: 1630px; */
+  }
+  .test_l {
+    height: 800px;
+  }
+  .test_r{
+    height: 800px;
+    margin-top: 60px;
   }
   .test_card1 {
     width: 70%;
