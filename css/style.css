@@ -220,37 +220,111 @@ p {
   margin-top: 50px;
   width: 400px;
 }
-.gallery{
+.gallery {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.img_row1{
+.img_row1 {
   display: flex;
   flex-direction: row;
 }
-.img_row2{
+.img_row2 {
   display: flex;
   flex-direction: row;
   padding-bottom: 30px;
 }
-.logo_row{
+.logo_row {
   width: 831px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding-bottom: 60px;
 }
-.logo_img{
+.logo_img {
   width: 60px;
   height: auto;
 }
-.logo1, .logo2{
+.logo1,
+.logo2 {
   display: flex;
   width: 365px;
   flex-direction: row;
   justify-content: space-between;
 }
+.test_cont {
+  width: 853px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.test_l {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 730px;
+}
+.test_r {
+  display: flex;
+  flex-direction: column;
+  height: 730px;
+}
+.test_card1 {
+  background-color: inherit;
+  width: 353px;
+  border-radius: 4px;
+  border: 1px solid #dedede6c;
+  padding: 30px;
+}
+.test_header {
+  display: flex;
+  flex-direction: row;
+}
+.test_img {
+  width: 50px;
+  height: 50px;
+}
+.test_header_cont {
+ width: 100%;
+}
+.test_header_title {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 25px;
+  margin-left: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0%;
+  text-align: left;
+}
+.test_body {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 24px;
+  padding-left: 0;
+  text-align: left;
+}
+
+.test_card2 {
+  margin-top: 20px;
+  background-color: inherit;
+  width: 353px;
+  border-radius: 4px;
+  border: 1px solid #dedede;
+  padding: 30px;
+}
+
+
+
+
+
+
+
+
+/* Media Queries */
+
 @media only screen and (max-width: 768px) {
   .nav_cont {
     width: 100%;
@@ -292,7 +366,7 @@ p {
     font-size: 14px;
     padding: 10px;
   }
-  .section_headline{
+  .section_headline {
     font-size: 35px;
   }
   .feature_headline {
@@ -326,32 +400,49 @@ p {
     width: 308px;
     height: 572px;
   }
-  .card_cont{
+  .card_cont {
     width: 100%;
   }
-.card_img{
-  width: 250px;
-}
-.img_row1{
-  display: flex;
-  flex-direction: column;
-}
-.img_row2{
-  display: none;
-}
-.gallery_img{
-  width: 329px;
-}
-.logo_row{
-  width: 100%;
-  flex-direction: column;
-  align-items: center;
-}
-.logo1{
-  padding-bottom: 30px;
-  width: 80%;
-}
-.logo2{
-  width: 292px;
-}
+  .card_img {
+    width: 250px;
+  }
+  .img_row1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .img_row2 {
+    display: none;
+  }
+  .gallery_img {
+    width: 329px;
+  }
+  .logo_row {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo1 {
+    padding-bottom: 30px;
+    width: 80%;
+  }
+  .logo2 {
+    width: 292px;
+  }
+  .test_cont{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 1430px ;
+  }
+  .test_card1{
+    width: 80%;
+  }
+  .test_body{
+    width: 323px;
+  }
+  .test_l{
+    height: 700px;
+    align-items: center;
+  }
 }
