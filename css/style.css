@@ -424,12 +424,17 @@ p {
   .test_cont {
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     width: 100%;
-    height: 1430px;
   }
   .test_card1 {
     width: 80%;
+    margin-top: 20px;
+  }
+  .test_r {
+    margin-top: 10px;
+    height: 700px;
+    align-items: center;
   }
   .test_body {
     width: 323px;
@@ -442,11 +447,14 @@ p {
 
 @media only screen and (max-width: 425px) {
   .test_cont {
-    height: 1700px;
+    /* height: 1630px; */
   }
-.test_l{
-  height: 800px;
-}
+  .test_l {
+    height: 800px;
+  }
+  .test_r{
+    height: 800px;
+  }
   .test_card1 {
     width: 70%;
   }
