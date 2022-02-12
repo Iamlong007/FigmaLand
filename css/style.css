@@ -473,7 +473,7 @@ p {
   }
   .test_r{
     height: 800px;
-    margin-top: 60px;
+    margin-top: 10px;
   }
   .test_card1 {
     width: 70%;
@@ -481,4 +481,11 @@ p {
   .test_body {
     width: 90%;
   }
+}
+
+@media only screen and (max-width: 378px) {
+
+.test_r{
+  margin-top: 58px;
+}
 }
