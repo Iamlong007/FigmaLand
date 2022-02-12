@@ -473,7 +473,7 @@ p {
   }
   .test_r{
     height: 800px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
   }
   .test_card1 {
     width: 70%;
