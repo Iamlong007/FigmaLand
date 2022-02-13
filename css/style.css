@@ -137,8 +137,7 @@ p {
   display: flex;
   flex-direction: row;
 }
-.feature_image_large {
-}
+
 .feature_image_sm {
   display: none;
 }
@@ -301,7 +300,7 @@ p {
   text-align: left;
 }
 .test_body {
-  margin-top: 20px;
+  margin-top: 10px;
   font-size: 16px;
   font-weight: normal;
   line-height: 24px;
@@ -317,6 +316,53 @@ p {
   border: 1px solid #dedede;
   padding: 30px;
 }
+
+.try_section {
+  margin-top: 180px;
+  /* padding: 180px 80px; */
+  
+}
+.try_cont {
+  display: flex;
+  margin: auto;
+  width: 65%;
+  background: #343434;
+  box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+  border-radius: 33px;
+  overflow: hidden;
+}
+.try_cont div {
+  padding: 60px 0px 60px 71px;
+}
+.try_cont div h3 {
+  width: 80%;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0%;
+  font-size: 52px;
+  line-height: 62px;
+  letter-spacing: 0.2px;
+  padding-bottom: 30px;
+}
+.try_cont div button{
+  width: 225px;
+}
+.try_cont img{
+  width: 585px;
+  height: auto;
+  background-size: contain;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* Media Queries */
 
@@ -442,32 +488,20 @@ p {
     flex-direction: column;
     align-items: center;
   }
-  .test_l :nth-child(1){
-    margin-right: 0%;
-margin-bottom: 20px;
-  }
-  .test_r :nth-child(1){
+  .test_l :nth-child(1) {
     margin-right: 0%;
     margin-bottom: 20px;
   }
-.test_header_cont :nth-child(1){
-  margin-bottom: 0px;
-}
+  .test_r :nth-child(1) {
+    margin-right: 0%;
+    margin-bottom: 20px;
+  }
+  .test_header_cont :nth-child(1) {
+    margin-bottom: 0px;
+  }
 }
 
 @media only screen and (max-width: 425px) {
-  .test_cont {
-    /* height: 1630px; */
-  }
-  .test_l {
-
-  }
-  .test_header_cont{
-    margin-top: 0;
-  }
-  .test_r {
-
-  }
   .test_card1 {
     width: 70%;
   }
@@ -476,26 +510,10 @@ margin-bottom: 20px;
   }
 }
 @media only screen and (max-width: 381px) {
-  .test_cont {
-    /* height: 1630px; */
-  }
-  .test_l {
-
-  }
-  .test_r {
-
-    /* margin-top: 10px; */
-  }
   .test_card1 {
     width: 70%;
   }
   .test_body {
     width: 90%;
-  }
-}
-
-@media only screen and (max-width: 378px) {
-  .test_r {
-    /* margin-top: 58px; */
   }
 }
