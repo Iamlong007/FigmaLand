@@ -484,7 +484,7 @@ margin-bottom: 20px;
   }
   .test_r {
 
-    margin-top: 10px;
+    /* margin-top: 10px; */
   }
   .test_card1 {
     width: 70%;
@@ -496,6 +496,6 @@ margin-bottom: 20px;
 
 @media only screen and (max-width: 378px) {
   .test_r {
-    margin-top: 58px;
+    /* margin-top: 58px; */
   }
 }
