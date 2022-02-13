@@ -255,21 +255,22 @@ p {
 .test_cont {
   width: 853px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   padding-top: 50px;
 }
 .test_l {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 730px;
 }
 .test_r {
+  margin-top: 20px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 730px;
+}
+.test_r :nth-child(1) {
+  margin-right: 20px;
+}
+.test_l :nth-child(1) {
+  margin-right: 20px;
 }
 .test_card1 {
   background-color: inherit;
@@ -425,26 +426,33 @@ p {
   .test_cont {
     flex-direction: column;
     align-items: center;
-    /* justify-content: space-between; */
     width: 100%;
   }
   .test_card1 {
     width: 80%;
-    margin-top: 20px;
   }
   .test_r {
-    margin-top: 15px;
-    height: 700px;
+    flex-direction: column;
     align-items: center;
-    justify-content: baseline;
   }
   .test_body {
     width: 323px;
   }
   .test_l {
-    height: 700px;
+    flex-direction: column;
     align-items: center;
   }
+  .test_l :nth-child(1){
+    margin-right: 0%;
+margin-bottom: 20px;
+  }
+  .test_r :nth-child(1){
+    margin-right: 0%;
+    margin-bottom: 20px;
+  }
+.test_header_cont :nth-child(1){
+  margin-bottom: 0px;
+}
 }
 
 @media only screen and (max-width: 425px) {
@@ -452,10 +460,13 @@ p {
     /* height: 1630px; */
   }
   .test_l {
-    height: 800px;
+
   }
-  .test_r{
-    height: 800px;
+  .test_header_cont{
+    margin-top: 0;
+  }
+  .test_r {
+
   }
   .test_card1 {
     width: 70%;
@@ -469,11 +480,11 @@ p {
     /* height: 1630px; */
   }
   .test_l {
-    height: 800px;
+
   }
-  .test_r{
-    height: 800px;
-    /* margin-top: 10px; */
+  .test_r {
+
+    margin-top: 10px;
   }
   .test_card1 {
     width: 70%;
@@ -484,8 +495,7 @@ p {
 }
 
 @media only screen and (max-width: 378px) {
-
-.test_r{
-  margin-top: 58px;
-}
+  .test_r {
+    margin-top: 58px;
+  }
 }
