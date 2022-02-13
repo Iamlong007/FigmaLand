@@ -320,7 +320,6 @@ p {
 .try_section {
   margin-top: 180px;
   /* padding: 180px 80px; */
-  
 }
 .try_cont {
   display: flex;
@@ -344,25 +343,24 @@ p {
   letter-spacing: 0.2px;
   padding-bottom: 30px;
 }
-.try_cont div button{
-  width: 225px;
+.try_cont div button {
+  width: 205px !important;
+  height: 52px;
+  width: 139px;
+  background-color: #4452fe;
+  border: 1px solid #4452fe;
+  color: white;
+  border-radius: 3px;
 }
-.try_cont img{
+.try_cont img {
   width: 585px;
   height: 343px;
   background-size: contain;
 }
 
-
-
-
-
-
-
-
-
-
-
+.try_cont :nth-child(3) {
+  display: none;
+}
 
 /* Media Queries */
 
@@ -478,6 +476,7 @@ p {
     width: 80%;
   }
   .test_r {
+    width: 60%;
     flex-direction: column;
     align-items: center;
   }
@@ -485,6 +484,7 @@ p {
     width: 323px;
   }
   .test_l {
+    width: 60%;
     flex-direction: column;
     align-items: center;
   }
@@ -499,6 +499,33 @@ p {
   .test_header_cont :nth-child(1) {
     margin-bottom: 0px;
   }
+  .try_cont {
+    flex-direction: column;
+    background: inherit;
+    align-items: center;
+    box-shadow: none;
+    width: 100% !important;
+  }
+
+  .try_cont div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 0;
+    align-items: center;
+  }
+  .try_cont div h3 {
+    width: 80%;
+    text-align: center;
+    line-height: 50px;
+  }
+  .try_img_sm {
+    display: none;
+  }
+  .try_cont :nth-child(3) {
+    display: block;
+    margin-top: 50px;
+  }
 }
 
 @media only screen and (max-width: 425px) {
@@ -508,6 +535,15 @@ p {
   .test_body {
     width: 90%;
   }
+  .test_l {
+    width: 80%;
+  }
+  .test_r {
+    width: 80%;
+  }
+  .try_cont div h3 {
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 381px) {
   .test_card1 {
@@ -515,5 +551,23 @@ p {
   }
   .test_body {
     width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1258px) {
+  .test_card1 {
+    width: 70%;
+  }
+  .test_body {
+    width: 90%;
+  }
+  .try_cont {
+    width: 800px;
+  }
+  .try_cont div h3 {
+    font-size: 32px;
+  }
+  .try_cont img {
+    width: 400px;
   }
 }
