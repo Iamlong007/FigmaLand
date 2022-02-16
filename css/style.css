@@ -467,6 +467,7 @@ footer {
   }
   .feature_image_sm {
     display: block;
+    width: 90%;
   }
   .list {
     width: 260px;
