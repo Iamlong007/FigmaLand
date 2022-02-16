@@ -578,6 +578,7 @@ footer {
     /* padding-left: 90px; */
     align-items: left;
     margin-top: 50px;
+    padding-top: 0;
   }
   .left_cont {
     flex-direction: column;
