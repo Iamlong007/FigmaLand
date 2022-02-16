@@ -362,6 +362,33 @@ p {
   display: none;
 }
 
+
+
+
+footer{
+  margin-top: 200px;
+  padding: 107px 281px;
+  display: flex;
+}
+.left_cont{
+  display: flex;
+}
+.link_cont{
+  padding: 50px;
+}
+.footer_links{
+  margin-top: 60px;
+}
+.footer_links p{
+  font-size: 16px;
+  font-weight: normal;
+  text-align: left;
+  padding: 0px;
+}
+
+
+
+
 /* Media Queries */
 
 @media only screen and (max-width: 768px) {
