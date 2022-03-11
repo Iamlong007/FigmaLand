@@ -497,9 +497,15 @@ footer {
     width: 250px;
   }
   .img_row1 {
+    width: 308px;
     display: flex;
     flex-direction: column;
   }
+.img_row1 img{
+width: 100%;
+height: auto;
+  object-fit: contain;
+}
   .img_row2 {
     display: none;
   }
@@ -601,7 +607,7 @@ footer {
 
 @media only screen and (max-width: 425px) {
   .test_card1 {
-    width: 70%;
+    width: 80% !important;
   }
   .test_body {
     width: 90%;
