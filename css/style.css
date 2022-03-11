@@ -561,7 +561,7 @@ height: auto;
     background: inherit;
     align-items: center;
     box-shadow: none;
-    width: 100% !important;
+    width: 80% !important;
   }
 
   .try_cont div {
